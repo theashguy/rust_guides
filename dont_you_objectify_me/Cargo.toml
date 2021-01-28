@@ -1,0 +1,22 @@
+[package]
+name = "dont_you_objectify_me"
+version = "0.1.0"
+authors = ["Ash Guy <ash@ashguy.com>"]
+edition = "2018"
+license = "MIT"
+description = "Project for walking through differences between Rustlang and JS / TS"
+readme = "README.md"
+publish = false
+
+[[bin]]
+name = "dont_you_objectify_me"
+path = "src/main.rs"
+
+[[test]]
+name = "tests"
+
+[dependencies]
+clap = "3.0.0-beta.2"
+serde = "^1.0.0"
+serde_json = "^1.0"
+serde_derive = "1.0.27"

@@ -1,0 +1,16 @@
+[package]
+name = "fun_with_modules"
+version = "0.1.0"
+authors = ["Ash Guy <ash@ashguy.com>"]
+edition = "2018"
+license = "MIT"
+description = "Project for walking through differences between Rustlang and JS / TS"
+readme = "README.md"
+publish = false
+
+[[bin]]
+name = "fun_with_modules"
+path = "src/main.rs"
+
+[[test]]
+name = "tests"

@@ -1,0 +1,9 @@
+[workspace]
+members = [
+    "add_two_numbers",
+    "fun_with_modules",
+    "types_are_good",
+    "getting_pointy",
+    "dont_you_objectify_me",
+    "a_common_example",
+]

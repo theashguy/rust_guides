@@ -1,0 +1,19 @@
+[package]
+name = "a_common_example"
+version = "0.1.0"
+authors = ["Ash Guy <ash@ashguy.com>"]
+edition = "2018"
+license = "MIT"
+description = "Project for walking through differences between Rustlang and JS / TS"
+readme = "README.md"
+publish = false
+
+[[bin]]
+name = "a_common_example"
+path = "src/main.rs"
+
+[[test]]
+name = "tests"
+
+[dependencies]
+rocket = "0.4.6"
